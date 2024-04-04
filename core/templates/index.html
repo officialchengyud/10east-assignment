@@ -1,0 +1,69 @@
+{% load static tailwind_tags %}
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      property="description"
+      content="10 East is a membership-based investment firm focused on providing targeted exposure to private markets. Members invest at their discretion in single-investment and niche fund vehicles across private credit, real estate, private equity, and venture capital."
+    />
+    <meta
+      property="og:title"
+      content="10 East | A membership-based investment firm"
+    />
+    <meta
+      property="og:description"
+      content="10 East is a membership-based investment firm focused on providing targeted exposure to private markets. Members invest at their discretion in single-investment and niche fund vehicles across private credit, real estate, private equity, and venture capital."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.sanity.io/images/cag6tbbe/production/5ff4fa3f00314415fb9c7ea5ead236c070f8c2be-1200x627.jpg"
+    />
+    <link rel="canonical" href="https://app.10east.co/" />
+    <link rel="stylesheet" href="/static/home.css"/>
+    <link rel="stylesheet" href="/static/home2.css"/>
+    <link rel="icon" href="/static/favicon.ico">
+    <title>10 East | A membership-based investment firm</title>
+
+    <!-- Here are the custom js code that I wrote for the different interactive features -->
+    <script src="/static/scripts/main.js"></script>
+    <script src="/static/scripts/modal.js"></script>
+    <script src="/static/scripts/carousel.js"></script>
+    <script src="/static/scripts/navigation.js"></script>
+
+    {% tailwind_css %}
+  </head>
+  <body data-aos-easing="ease"
+  data-aos-duration="400"
+  data-aos-delay="0"
+  class="bg-new-black-primary"
+  onload="main()">
+    <div>
+      {% include 'sections/navbar.html' %}
+      <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            background-color: #212121;
+        }
+    </style>
+
+      <!-- Content Area -->
+      <div class="relative font-amiri"><div class="mx-auto w-full max-w-[1320px] px-5 lg:px-10">
+        {% include 'common/modal.html' %}
+        {% include 'sections/textcenter.html' %}
+        {% include 'common/separator.html' %}
+        {% include 'sections/leverage.html' %}
+        {% include 'common/separator.html' %}
+        {% include 'sections/performance.html' %}
+        {% include 'common/separator.html' %}
+        {% include 'sections/sample.html' %}
+        {% include 'common/separator.html' %}
+        {% include 'sections/invitation.html' %}
+         </div>
+      </div>
+
+ {% include 'sections/footer.html' %}
+</body>
+</html>

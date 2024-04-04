@@ -1,0 +1,118 @@
+<div
+  id="modal"
+  class="fixed inset-0 z-[200] flex items-center justify-center bg-new-charcoal-primary/80 backdrop-blur-sm p-2 md:p-6 lg:p-8 hidden"
+>
+  <aside
+    role="dialog"
+    aria-modal="true"
+    class="flex flex-col rounded-lg max-w-full max-h-[calc(100vh-64px)] p-4 md:p-6 lg:p-8 bg-new-off-white-100 text-new-gray-100 cursor-default"
+    style="width: 800px"
+  >
+    <header class="grow-0 flex gap-8 mb-2.5">
+      <div class="grow" data-cy="modal-header">
+        <h2
+          id="modal-name"
+          class="block font-amiri font-light text-new-charcoal-primary text-[1.75rem] leading-[2rem] md:text-4xl mb-4"
+        >
+          Michael Leffell
+        </h2>
+        <p
+          id="modal-role"
+          class="block font-amiri font-light text-new-charcoal-primary text-xl md:text-2xl"
+        >
+          Founder &amp; Chairman
+        </p>
+      </div>
+      <a
+        class="ml-auto cursor-pointer"
+        title="Close"
+        data-cy="close-modal-button"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          aria-hidden="true"
+          width="16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z"
+            clip-rule="evenodd"
+          ></path></svg
+      ></a>
+    </header>
+    <div class="grow overflow-auto" data-cy="modal-body">
+      <div class="Modal_content__K8MQ3 mb-6 last:mb-0">
+        <p id="modal-content">
+          Michael Leffell is the Executive Chairman at 10 East, where he is
+          responsible for overseeing investment execution and the overall
+          strategic direction of the business.<br /><br />Mr. Leffell has +33
+          years of experience building industry leading investment firms and as
+          an investor in distressed debt, real estate, private credit, private
+          equity, and venture capital. Prior to founding 10 East and founding
+          Portage Partners in 2010, Mr. Leffell was the Deputy Executive
+          Managing Member of Davidson Kempner Capital Management, an event
+          driven, multi-strategy hedge fund. While at the firm, Mr. Leffell also
+          co-led the Distressed Securities investment strategy for 20 years.
+          With Mr. Leffell’s guidance, the firm expanded to manage more than $10
+          billion with over 150 employees in New York and London.<br /><br />Mr.
+          Leffell received his J.D. from Columbia Law School, where he was a
+          Harlan Fiske Stone Scholar, and earned a B.A., magna cum laude, Phi
+          Beta Kappa, from Clark University, where he was awarded the H.
+          Donaldson Jordan Prize in History.
+        </p>
+      </div>
+    </div>
+    <footer class="">
+      <div
+        role="separator"
+        class="mx-auto my-8 lg:my-12 max-w-[1080px] text-new-gray-150/25 !my-6"
+      >
+        <div class="relative flex items-center h-[16px] px-[16px]">
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="absolute left-0"
+          >
+            <path
+              d="M15.2929 8L8 15.2929L0.707108 8L8 0.707107L15.2929 8Z"
+              stroke="currentColor"
+            ></path>
+            <path
+              d="M8 11.2929L4.70711 8L8 4.70711L11.2929 8L8 11.2929Z"
+              stroke="currentColor"
+            ></path>
+          </svg>
+          <div class="h-[1px] w-full bg-current"></div>
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="absolute right-0"
+          >
+            <path
+              d="M15.2929 8L8 15.2929L0.707108 8L8 0.707107L15.2929 8Z"
+              stroke="currentColor"
+            ></path>
+            <path
+              d="M8 11.2929L4.70711 8L8 4.70711L11.2929 8L8 11.2929Z"
+              stroke="currentColor"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      <button
+        type="button"
+        id="modal-close"
+        class="inline-block border font-amiri font-bold text-base leading-[22px] whitespace-nowrap px-8 pt-[22px] py-[18px] border-solid border-new-charcoal-primary hover:border-new-gray-200 bg-new-charcoal-primary hover:bg-new-gray-200 text-center text-new-off-white-100 tracking-[0.3em] uppercase w-full"
+      >
+        Close
+      </button>
+    </footer>
+  </aside>
+</div>

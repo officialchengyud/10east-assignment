@@ -1,0 +1,649 @@
+<div class="relative">
+  <div
+    id="testimony-carousel"
+    class="overflow-hidden"
+    style="
+      --dragOffset: 0px;
+      --gap: 20px;
+      --itemsInViewport: 1;
+      --selectedIndex: 0;
+    "
+  >
+    <div
+      class="flex gap-[var(--gap)] transition-transform duration-300 items-stretch"
+      style="
+        transform: translateX(
+          calc(
+            (
+                (var(--selectedIndex) / var(--itemsInViewport)) *
+                  (-100% - var(--gap))
+              ) + var(--dragOffset)
+          )
+        );
+      "
+    >
+      <div
+        class="shrink-0"
+        style="
+          width: calc(
+            (100% / var(--itemsInViewport)) -
+              (
+                ((var(--itemsInViewport) - 1) / var(--itemsInViewport)) *
+                  var(--gap)
+              )
+          );
+        "
+      >
+        <div
+          class="flex flex-col lg:flex-row gap-8 lg:gap-0 lg:items-center lg:h-full text-center"
+        >
+          <blockquote
+            class="text-2xl md:text-3xl italic lg:grow lg:border-dotted lg:border-new-gray-150 lg:border-0 lg:border-r lg:px-14"
+          >
+            <p class="leading-normal font-amiri">
+              "I have known Michael for +40 years and have enjoyed my
+              relationship with the team for +10 years. Michael is a
+              disciplined, shrewd investor who has a long history of success in
+              sourcing differentiated opportunities, which I have participated
+              in historically and I look forward to evaluating for a long time
+              to come." ²
+            </p>
+          </blockquote>
+          <div class="lg:shrink-0 lg:w-[340px] lg:px-14">
+            <div
+              class="border border-dotted border-new-gold-primary rounded-full p-2 mx-auto mb-4"
+              style="width: 75px; height: 75px"
+            >
+              <div
+                class="rounded-full bg-gradient-to-r from-new-gold-primary to-new-purple-primary overflow-hidden"
+                style="width: 57px; height: 57px"
+              >
+                <span
+                  style="
+                    box-sizing: border-box;
+                    display: inline-block;
+                    overflow: hidden;
+                    width: initial;
+                    height: initial;
+                    background: none;
+                    opacity: 1;
+                    border: 0px;
+                    margin: 0px;
+                    padding: 0px;
+                    position: relative;
+                    max-width: 100%;
+                  "
+                  ><span
+                    style="
+                      box-sizing: border-box;
+                      display: block;
+                      width: initial;
+                      height: initial;
+                      background: none;
+                      opacity: 1;
+                      border: 0px;
+                      margin: 0px;
+                      padding: 0px;
+                      max-width: 100%;
+                    "
+                    ><img
+                      alt=""
+                      aria-hidden="true"
+                      src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2775%27%20height=%2775%27/%3e"
+                      style="
+                        display: block;
+                        max-width: 100%;
+                        width: initial;
+                        height: initial;
+                        background: none;
+                        opacity: 1;
+                        border: 0px;
+                        margin: 0px;
+                        padding: 0px;
+                      " /></span
+                  ><img
+                    alt=""
+                    src="https://cdn.sanity.io/images/cag6tbbe/production/14626b610e0208aaf2c9fc42789f364d86eaec5a-430x430.png?imwidth=256"
+                    decoding="async"
+                    data-nimg="intrinsic"
+                    style="
+                      position: absolute;
+                      inset: 0px;
+                      box-sizing: border-box;
+                      padding: 0px;
+                      border: none;
+                      margin: auto;
+                      display: block;
+                      width: 0px;
+                      height: 0px;
+                      min-width: 100%;
+                      max-width: 100%;
+                      min-height: 100%;
+                      max-height: 100%;
+                    "
+                    srcset="
+                      https://cdn.sanity.io/images/cag6tbbe/production/14626b610e0208aaf2c9fc42789f364d86eaec5a-430x430.png?imwidth=96  1x,
+                      https://cdn.sanity.io/images/cag6tbbe/production/14626b610e0208aaf2c9fc42789f364d86eaec5a-430x430.png?imwidth=256 2x
+                    " /><noscript></noscript
+                ></span>
+              </div>
+            </div>
+            <h3
+              class="block font-amiri font-light text-new-gray-400 text-lg md:text-xl mb-2"
+            >
+              Jonathan Kolatch
+            </h3>
+            <div class="text-xl italic">Founder, Redwood Capital</div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="shrink-0"
+        style="
+          width: calc(
+            (100% / var(--itemsInViewport)) -
+              (
+                ((var(--itemsInViewport) - 1) / var(--itemsInViewport)) *
+                  var(--gap)
+              )
+          );
+        "
+      >
+        <div
+          class="flex flex-col lg:flex-row gap-8 lg:gap-0 lg:items-center lg:h-full text-center"
+        >
+          <blockquote
+            class="text-2xl md:text-3xl italic lg:grow lg:border-dotted lg:border-new-gray-150 lg:border-0 lg:border-r lg:px-14"
+          >
+            <p class="leading-normal font-amiri">
+              "Co-investing with the team at 10 East gets me exposure to
+              opportunities I would be unlikely to find elsewhere. I also value
+              the flexibility of the model, which enables me to pick and choose
+              the investments that are right for my portfolio." ²
+            </p>
+          </blockquote>
+          <div class="lg:shrink-0 lg:w-[340px] lg:px-14">
+            <div
+              class="border border-dotted border-new-gold-primary rounded-full p-2 mx-auto mb-4"
+              style="width: 75px; height: 75px"
+            >
+              <div
+                class="rounded-full bg-gradient-to-r from-new-gold-primary to-new-purple-primary overflow-hidden"
+                style="width: 57px; height: 57px"
+              >
+                <span
+                  style="
+                    box-sizing: border-box;
+                    display: inline-block;
+                    overflow: hidden;
+                    width: initial;
+                    height: initial;
+                    background: none;
+                    opacity: 1;
+                    border: 0px;
+                    margin: 0px;
+                    padding: 0px;
+                    position: relative;
+                    max-width: 100%;
+                  "
+                  ><span
+                    style="
+                      box-sizing: border-box;
+                      display: block;
+                      width: initial;
+                      height: initial;
+                      background: none;
+                      opacity: 1;
+                      border: 0px;
+                      margin: 0px;
+                      padding: 0px;
+                      max-width: 100%;
+                    "
+                    ><img
+                      alt=""
+                      aria-hidden="true"
+                      src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2775%27%20height=%2775%27/%3e"
+                      style="
+                        display: block;
+                        max-width: 100%;
+                        width: initial;
+                        height: initial;
+                        background: none;
+                        opacity: 1;
+                        border: 0px;
+                        margin: 0px;
+                        padding: 0px;
+                      " /></span
+                  ><img
+                    alt=""
+                    src="https://cdn.sanity.io/images/cag6tbbe/production/2c57de009ca5e25b329484c5edf25713018ccee0-428x428.png?imwidth=256"
+                    decoding="async"
+                    data-nimg="intrinsic"
+                    style="
+                      position: absolute;
+                      inset: 0px;
+                      box-sizing: border-box;
+                      padding: 0px;
+                      border: none;
+                      margin: auto;
+                      display: block;
+                      width: 0px;
+                      height: 0px;
+                      min-width: 100%;
+                      max-width: 100%;
+                      min-height: 100%;
+                      max-height: 100%;
+                    "
+                    srcset="
+                      https://cdn.sanity.io/images/cag6tbbe/production/2c57de009ca5e25b329484c5edf25713018ccee0-428x428.png?imwidth=96  1x,
+                      https://cdn.sanity.io/images/cag6tbbe/production/2c57de009ca5e25b329484c5edf25713018ccee0-428x428.png?imwidth=256 2x
+                    " /><noscript></noscript
+                ></span>
+              </div>
+            </div>
+            <h3
+              class="block font-amiri font-light text-new-gray-400 text-lg md:text-xl mb-2"
+            >
+              Jonathan Kolber
+            </h3>
+            <div class="text-xl italic">Chairman and CEO, Anfield Ltd.</div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="shrink-0"
+        style="
+          width: calc(
+            (100% / var(--itemsInViewport)) -
+              (
+                ((var(--itemsInViewport) - 1) / var(--itemsInViewport)) *
+                  var(--gap)
+              )
+          );
+        "
+      >
+        <div
+          class="flex flex-col lg:flex-row gap-8 lg:gap-0 lg:items-center lg:h-full text-center"
+        >
+          <blockquote
+            class="text-2xl md:text-3xl italic lg:grow lg:border-dotted lg:border-new-gray-150 lg:border-0 lg:border-r lg:px-14"
+          >
+            <p class="leading-normal font-amiri">
+              "The ability to co-invest alongside Michael and his team is a
+              significant opportunity for members of 10 East because it helps
+              them diversify risk exposures, source new deals, and leverage 10
+              East's scale and expertise."²
+            </p>
+          </blockquote>
+          <div class="lg:shrink-0 lg:w-[340px] lg:px-14">
+            <div
+              class="border border-dotted border-new-gold-primary rounded-full p-2 mx-auto mb-4"
+              style="width: 75px; height: 75px"
+            >
+              <div
+                class="rounded-full bg-gradient-to-r from-new-gold-primary to-new-purple-primary overflow-hidden"
+                style="width: 57px; height: 57px"
+              >
+                <span
+                  style="
+                    box-sizing: border-box;
+                    display: inline-block;
+                    overflow: hidden;
+                    width: initial;
+                    height: initial;
+                    background: none;
+                    opacity: 1;
+                    border: 0px;
+                    margin: 0px;
+                    padding: 0px;
+                    position: relative;
+                    max-width: 100%;
+                  "
+                  ><span
+                    style="
+                      box-sizing: border-box;
+                      display: block;
+                      width: initial;
+                      height: initial;
+                      background: none;
+                      opacity: 1;
+                      border: 0px;
+                      margin: 0px;
+                      padding: 0px;
+                      max-width: 100%;
+                    "
+                    ><img
+                      alt=""
+                      aria-hidden="true"
+                      src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2775%27%20height=%2775%27/%3e"
+                      style="
+                        display: block;
+                        max-width: 100%;
+                        width: initial;
+                        height: initial;
+                        background: none;
+                        opacity: 1;
+                        border: 0px;
+                        margin: 0px;
+                        padding: 0px;
+                      " /></span
+                  ><img
+                    alt=""
+                    src="https://cdn.sanity.io/images/cag6tbbe/production/542103bbecb8baa6d0035e1695cefa88ee01e291-430x430.png?imwidth=256"
+                    decoding="async"
+                    data-nimg="intrinsic"
+                    style="
+                      position: absolute;
+                      inset: 0px;
+                      box-sizing: border-box;
+                      padding: 0px;
+                      border: none;
+                      margin: auto;
+                      display: block;
+                      width: 0px;
+                      height: 0px;
+                      min-width: 100%;
+                      max-width: 100%;
+                      min-height: 100%;
+                      max-height: 100%;
+                    "
+                    srcset="
+                      https://cdn.sanity.io/images/cag6tbbe/production/542103bbecb8baa6d0035e1695cefa88ee01e291-430x430.png?imwidth=96  1x,
+                      https://cdn.sanity.io/images/cag6tbbe/production/542103bbecb8baa6d0035e1695cefa88ee01e291-430x430.png?imwidth=256 2x
+                    " /><noscript></noscript
+                ></span>
+              </div>
+            </div>
+            <h3
+              class="block font-amiri font-light text-new-gray-400 text-lg md:text-xl mb-2"
+            >
+              D. Randall Winn
+            </h3>
+            <div class="text-xl italic">Managing Partner, 22C Capital</div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="shrink-0"
+        style="
+          width: calc(
+            (100% / var(--itemsInViewport)) -
+              (
+                ((var(--itemsInViewport) - 1) / var(--itemsInViewport)) *
+                  var(--gap)
+              )
+          );
+        "
+      >
+        <div
+          class="flex flex-col lg:flex-row gap-8 lg:gap-0 lg:items-center lg:h-full text-center"
+        >
+          <blockquote
+            class="text-2xl md:text-3xl italic lg:grow lg:border-dotted lg:border-new-gray-150 lg:border-0 lg:border-r lg:px-14"
+          >
+            <p class="leading-normal font-amiri">
+              “I was particularly attracted to 10 East because of their
+              investment DNA (vetted, private market opportunities in both
+              off-the-run funds and deals) and its high-quality, internal
+              investment team that does the work.” ²
+            </p>
+          </blockquote>
+          <div class="lg:shrink-0 lg:w-[340px] lg:px-14">
+            <div
+              class="border border-dotted border-new-gold-primary rounded-full p-2 mx-auto mb-4"
+              style="width: 75px; height: 75px"
+            >
+              <div
+                class="rounded-full bg-gradient-to-r from-new-gold-primary to-new-purple-primary overflow-hidden"
+                style="width: 57px; height: 57px"
+              >
+                <span
+                  style="
+                    box-sizing: border-box;
+                    display: inline-block;
+                    overflow: hidden;
+                    width: initial;
+                    height: initial;
+                    background: none;
+                    opacity: 1;
+                    border: 0px;
+                    margin: 0px;
+                    padding: 0px;
+                    position: relative;
+                    max-width: 100%;
+                  "
+                  ><span
+                    style="
+                      box-sizing: border-box;
+                      display: block;
+                      width: initial;
+                      height: initial;
+                      background: none;
+                      opacity: 1;
+                      border: 0px;
+                      margin: 0px;
+                      padding: 0px;
+                      max-width: 100%;
+                    "
+                    ><img
+                      alt=""
+                      aria-hidden="true"
+                      src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2775%27%20height=%2775%27/%3e"
+                      style="
+                        display: block;
+                        max-width: 100%;
+                        width: initial;
+                        height: initial;
+                        background: none;
+                        opacity: 1;
+                        border: 0px;
+                        margin: 0px;
+                        padding: 0px;
+                      " /></span
+                  ><img
+                    alt=""
+                    src="https://cdn.sanity.io/images/cag6tbbe/production/6eb8f3f8f4ce95569418c2ab59c26bc73c68200f-430x430.png?imwidth=256"
+                    decoding="async"
+                    data-nimg="intrinsic"
+                    style="
+                      position: absolute;
+                      inset: 0px;
+                      box-sizing: border-box;
+                      padding: 0px;
+                      border: none;
+                      margin: auto;
+                      display: block;
+                      width: 0px;
+                      height: 0px;
+                      min-width: 100%;
+                      max-width: 100%;
+                      min-height: 100%;
+                      max-height: 100%;
+                    "
+                    srcset="
+                      https://cdn.sanity.io/images/cag6tbbe/production/6eb8f3f8f4ce95569418c2ab59c26bc73c68200f-430x430.png?imwidth=96  1x,
+                      https://cdn.sanity.io/images/cag6tbbe/production/6eb8f3f8f4ce95569418c2ab59c26bc73c68200f-430x430.png?imwidth=256 2x
+                    " /><noscript></noscript
+                ></span>
+              </div>
+            </div>
+            <h3
+              class="block font-amiri font-light text-new-gray-400 text-lg md:text-xl mb-2"
+            >
+              Ted Seides
+            </h3>
+            <div class="text-xl italic">Founder, Capital Allocators</div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="shrink-0"
+        style="
+          width: calc(
+            (100% / var(--itemsInViewport)) -
+              (
+                ((var(--itemsInViewport) - 1) / var(--itemsInViewport)) *
+                  var(--gap)
+              )
+          );
+        "
+      >
+        <div
+          class="flex flex-col lg:flex-row gap-8 lg:gap-0 lg:items-center lg:h-full text-center"
+        >
+          <blockquote
+            class="text-2xl md:text-3xl italic lg:grow lg:border-dotted lg:border-new-gray-150 lg:border-0 lg:border-r lg:px-14"
+          >
+            <p class="leading-normal font-amiri">
+              "Seeing opportunities that are pre-vetted, and where the team has
+              skin-in-the-game, saves me an incredible amount of time. Not to
+              mention the performance has been strong, and the team has always
+              operated with the utmost integrity and character.” ²
+            </p>
+          </blockquote>
+          <div class="lg:shrink-0 lg:w-[340px] lg:px-14">
+            <div
+              class="border border-dotted border-new-gold-primary rounded-full p-2 mx-auto mb-4"
+              style="width: 75px; height: 75px"
+            >
+              <div
+                class="rounded-full bg-gradient-to-r from-new-gold-primary to-new-purple-primary overflow-hidden"
+                style="width: 57px; height: 57px"
+              >
+                <span
+                  style="
+                    box-sizing: border-box;
+                    display: inline-block;
+                    overflow: hidden;
+                    width: initial;
+                    height: initial;
+                    background: none;
+                    opacity: 1;
+                    border: 0px;
+                    margin: 0px;
+                    padding: 0px;
+                    position: relative;
+                    max-width: 100%;
+                  "
+                  ><span
+                    style="
+                      box-sizing: border-box;
+                      display: block;
+                      width: initial;
+                      height: initial;
+                      background: none;
+                      opacity: 1;
+                      border: 0px;
+                      margin: 0px;
+                      padding: 0px;
+                      max-width: 100%;
+                    "
+                    ><img
+                      alt=""
+                      aria-hidden="true"
+                      src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2775%27%20height=%2775%27/%3e"
+                      style="
+                        display: block;
+                        max-width: 100%;
+                        width: initial;
+                        height: initial;
+                        background: none;
+                        opacity: 1;
+                        border: 0px;
+                        margin: 0px;
+                        padding: 0px;
+                      " /></span
+                  ><img
+                    alt=""
+                    src="https://cdn.sanity.io/images/cag6tbbe/production/fa77c40ef5df5fffc21ed85f0c3c8a9a20a67810-853x852.png?imwidth=256"
+                    decoding="async"
+                    data-nimg="intrinsic"
+                    style="
+                      position: absolute;
+                      inset: 0px;
+                      box-sizing: border-box;
+                      padding: 0px;
+                      border: none;
+                      margin: auto;
+                      display: block;
+                      width: 0px;
+                      height: 0px;
+                      min-width: 100%;
+                      max-width: 100%;
+                      min-height: 100%;
+                      max-height: 100%;
+                    "
+                    srcset="
+                      https://cdn.sanity.io/images/cag6tbbe/production/fa77c40ef5df5fffc21ed85f0c3c8a9a20a67810-853x852.png?imwidth=96  1x,
+                      https://cdn.sanity.io/images/cag6tbbe/production/fa77c40ef5df5fffc21ed85f0c3c8a9a20a67810-853x852.png?imwidth=256 2x
+                    " /><noscript></noscript
+                ></span>
+              </div>
+            </div>
+            <h3
+              class="block font-amiri font-light text-new-gray-400 text-lg md:text-xl mb-2"
+            >
+              Edgar Jannotta, Jr.
+            </h3>
+            <div class="text-xl italic">
+              Former Managing Principal of Healthcare Group, GTCR
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-6 flex gap-6 justify-center items-center">
+    <span
+      class="-mb-1 text-new-gray-100 hover:text-new-gold-primary leading-none cursor-pointer invisible"
+      title="Previous"
+      ><svg
+        onclick="testimonyPrevious()"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        aria-hidden="true"
+        width="32"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M7.28 7.72a.75.75 0 010 1.06l-2.47 2.47H21a.75.75 0 010 1.5H4.81l2.47 2.47a.75.75 0 11-1.06 1.06l-3.75-3.75a.75.75 0 010-1.06l3.75-3.75a.75.75 0 011.06 0z"
+          clip-rule="evenodd"
+        ></path></svg
+    ></span>
+    <div class="flex gap-[9px]" id="testimony-carousel-buttons">
+      <span
+        class="block w-[9px] h-[9px] rounded-full cursor-pointer !bg-new-gold-primary"
+      ></span
+      ><span
+        class="block w-[9px] h-[9px] rounded-full cursor-pointer bg-new-gray-100 hover:bg-new-gold-primary"
+      ></span
+      ><span
+        class="block w-[9px] h-[9px] rounded-full cursor-pointer bg-new-gray-100 hover:bg-new-gold-primary"
+      ></span
+      ><span
+        class="block w-[9px] h-[9px] rounded-full cursor-pointer bg-new-gray-100 hover:bg-new-gold-primary"
+      ></span
+      ><span
+        class="block w-[9px] h-[9px] rounded-full cursor-pointer bg-new-gray-100 hover:bg-new-gold-primary"
+      ></span>
+    </div>
+    <span
+      class="-mb-1 text-new-gray-100 hover:text-new-gold-primary leading-none cursor-pointer"
+      title="Next"
+      ><svg
+        onclick="testimonyNext()"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        aria-hidden="true"
+        width="32"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M16.72 7.72a.75.75 0 011.06 0l3.75 3.75a.75.75 0 010 1.06l-3.75 3.75a.75.75 0 11-1.06-1.06l2.47-2.47H3a.75.75 0 010-1.5h16.19l-2.47-2.47a.75.75 0 010-1.06z"
+          clip-rule="evenodd"
+        ></path></svg
+    ></span>
+  </div>
+</div>
